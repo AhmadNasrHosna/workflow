@@ -1,0 +1,6 @@
+/* Fonts */
+@import '../stylesheets/inter';
+
+:root {
+  --primary-font: "Inter", system-ui, sans-serif;
+}

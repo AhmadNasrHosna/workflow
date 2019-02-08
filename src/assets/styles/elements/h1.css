@@ -1,0 +1,14 @@
+h1 { /* REMOVE THIS STYLES */
+  a {
+    border-radius: 4px;
+    background: black;
+    color: white;
+    padding: .14em .6em;
+    font-weight: 600;
+    transition: all 150ms ease;
+
+    &:hover {
+      background-color: var(--primary-color);
+    }
+  }
+}

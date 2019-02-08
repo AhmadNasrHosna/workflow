@@ -1,0 +1,15 @@
+body {
+  margin: 1rem; /* REMOVE THIS LINE */
+  font-family: var(--primary-font);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--grey);
+  background: #f4f4f4;
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Inter var", system-ui, sans-serif;
+  }
+}
+
